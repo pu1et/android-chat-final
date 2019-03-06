@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">채팅</string>
+    <string name="title_tab1">친구</string>
+    <string name="title_tab2">채팅</string>
+    <string name="title_tab3">정보</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="fab1_title">Friend</string>
+    <string name="addText">추가</string>
+    <string name="select_user_title">친구 선택</string>
+    <string name="app_func">"1.사용자 목록\n2.채팅 목록\n3.메시지 보내기\n4.메시지 받기\n5.전화 걸기\n6.친구 추가,삭제\n7.채팅 추가,삭제"</string>
+    <string name="develop_env">"OS : Windows7\nCPU : Intel Core i5\nRAM : 8G\nandroid --version\nandroid studio"</string>
+    <string name="developer_info">개발자 정보</string>
+    <string name="input_placeholder">Write a message</string>
+    <string-array name="id_list">
+        <item>aaaa1111</item>
+        <item>bbbb2222</item>
+        <item>cccc3333</item>
+        <item>dddd4444</item>
+        <item>eeee5555</item>
+        <item>ffff6666</item>
+        <item>gggg7777</item>
+        <item>hhhh8888</item>
+        <item>iiii9999</item>
+        <item>jjjj0000</item>
+        <item>kkkk1111</item>
+        <item>llll2222</item>
+        <item>mmmm3333</item>
+        <item>nnnn4444</item>
+    </string-array>
+    <string-array name="name_list">
+        <item>김씨</item>
+        <item>이씨</item>
+        <item>박씨</item>
+        <item>안씨</item>
+        <item>정씨</item>
+        <item>임씨</item>
+        <item>조씨</item>
+        <item>장씨</item>
+        <item>지씨</item>
+        <item>권씨</item>
+        <item>전씨</item>
+        <item>하씨</item>
+        <item>독고씨</item>
+        <item>아무씨</item>
+    </string-array>
+    <string-array name="chat_list">
+        <item>안녕</item>
+        <item>반가워</item>
+        <item>잘 지냈니</item>
+        <item>잘 지냈어</item>
+        <item>나도 잘 지냈냐고 물어봐줘</item>
+        <item>;;</item>
+        <item>너무하네</item>
+        <item>응</item>
+        <item>나도 사실 잘 지냈어</item>
+        <item>잘됐구나</item>
+        <item>응</item>
+        <item>잘됐네</item>
+        <item>잘가</item>
+        <item>응</item>
+    </string-array>
+</resources>

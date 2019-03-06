@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:chatview="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    style="@style/Widget.AppCompat.ButtonBar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".ChatActivity"
+    >
+
+    <co.intentservice.chatui.ChatView
+        android:id="@+id/chat_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        chatview:backgroundColor="@android:color/background_light"
+        chatview:inputBackgroundColor="@color/colorBlue"
+        chatview:inputUseEditorAction="true"
+        chatview:inputTextAppearance="@color/colorSteelBlue"
+        chatview:inputTextSize="10sp"
+        chatview:inputTextColor="@android:color/background_dark"
+        chatview:inputHint="insert Message"
+        chatview:inputHintColor="@color/colorSteelBlue"
+        chatview:sendBtnIcon="@drawable/ic_send_black_24dp"
+        chatview:sendBtnIconTint="@color/colorSteelBlue"
+        chatview:sendBtnBackgroundTint="@android:color/background_light"
+
+        chatview:bubbleBackgroundRcv="@color/colorBlue"
+        chatview:bubbleBackgroundSend="@color/colorBlue"
+        chatview:bubbleElevation="elevated"
+        />
+</LinearLayout>
